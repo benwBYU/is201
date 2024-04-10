@@ -1,0 +1,40 @@
+/* Positioning Styles*/
+
+.common{
+    position: absolute;
+    border: 5px solid black;
+    background-color: orangered;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: steelblue;
+}
+
+.top{
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.content{
+    position:fixed;
+    text-align: center;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+}
+
+.nav{
+    position:relative;
+    z-index: 1;
+    color: white;
+}
